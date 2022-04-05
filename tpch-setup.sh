@@ -39,7 +39,7 @@ if [ X"$SCALE" = "X" ]; then
 	usage
 fi
 if [ X"$DIR" = "X" ]; then
-	DIR=s3a://perf-team-west1-bucket/perf-team-data/perf-team-logs/harshit-dh-1/tmp/tpch-generate
+	DIR=/tmp/tpch-generate
 fi
 if [ $SCALE -eq 1 ]; then
 	echo "Scale factor must be greater than 1"
